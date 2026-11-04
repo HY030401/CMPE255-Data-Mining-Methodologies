@@ -30,6 +30,6 @@ Replace placeholders with your own links after publishing.
 
 | Project | YouTube walkthrough | Medium article |
 |---|---|---|
-| CRISP-DM | [Add video link](https://youtube.com/) | [Predicting Bank Marketing Success Using CRISP-DM: An End-to-End Data Science Project](https://medium.com/@yhz1805/predicting-bank-marketing-success-using-crisp-dm-an-end-to-end-data-science-project-7e31e05fce74)) |
-| SEMMA | [Add video link](https://youtube.com/) | [Online Retail: An End-to-End SEMMA Data Mining Case Study](https://medium.com/@yhz1805/online-retail-an-end-to-end-semma-data-mining-case-study-135f3d967943)) |
-| KDD | [Add video link](https://youtube.com/) | [Credit Card Fraud: An End-to-End KDD Data Mining Case Study](https://medium.com/@yhz1805/credit-card-fraud-an-end-to-end-kdd-data-mining-case-study-52590f0abe7b)) |
+| CRISP-DM | [Add video link](https://youtube.com/) | [Predicting Bank Marketing Success Using CRISP-DM: An End-to-End Data Science Project](https://medium.com/@yhz1805/predicting-bank-marketing-success-using-crisp-dm-an-end-to-end-data-science-project-7e31e05fce74) |
+| SEMMA | [Add video link](https://youtube.com/) | [Online Retail: An End-to-End SEMMA Data Mining Case Study](https://medium.com/@yhz1805/online-retail-an-end-to-end-semma-data-mining-case-study-135f3d967943) |
+| KDD | [Add video link](https://youtube.com/) | [Credit Card Fraud: An End-to-End KDD Data Mining Case Study](https://medium.com/@yhz1805/credit-card-fraud-an-end-to-end-kdd-data-mining-case-study-52590f0abe7b) |
