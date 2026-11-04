@@ -1,0 +1,94 @@
+{
+  "sampling": "All positive examples plus up to 50,000 randomly selected negatives; sampled prevalence differs from population and metrics must not be treated as deployment prevalence",
+  "original_rows": 284807,
+  "rows": 50439,
+  "fraud_rate": 0.00937766410912191,
+  "models": [
+    {
+      "model": "LogisticRegression",
+      "roc_auc": 0.9776327639874228,
+      "pr_auc": 0.9053519704042063,
+      "confusion_matrix": [
+        [
+          9751,
+          242
+        ],
+        [
+          7,
+          88
+        ]
+      ],
+      "classification_report": {
+        "0": {
+          "precision": 0.9992826398852224,
+          "recall": 0.9757830481336935,
+          "f1-score": 0.9873930433902081,
+          "support": 9993.0
+        },
+        "1": {
+          "precision": 0.26666666666666666,
+          "recall": 0.9263157894736842,
+          "f1-score": 0.41411764705882353,
+          "support": 95.0
+        },
+        "accuracy": 0.9753172085646312,
+        "macro avg": {
+          "precision": 0.6329746532759445,
+          "recall": 0.9510494188036889,
+          "f1-score": 0.7007553452245158,
+          "support": 10088.0
+        },
+        "weighted avg": {
+          "precision": 0.9923835005656584,
+          "recall": 0.9753172085646312,
+          "f1-score": 0.9819944348799502,
+          "support": 10088.0
+        }
+      }
+    },
+    {
+      "model": "RandomForest",
+      "roc_auc": 0.9851032564900695,
+      "pr_auc": 0.9271066986186456,
+      "confusion_matrix": [
+        [
+          9990,
+          3
+        ],
+        [
+          15,
+          80
+        ]
+      ],
+      "classification_report": {
+        "0": {
+          "precision": 0.9985007496251874,
+          "recall": 0.999699789852897,
+          "f1-score": 0.9990999099909991,
+          "support": 9993.0
+        },
+        "1": {
+          "precision": 0.963855421686747,
+          "recall": 0.8421052631578947,
+          "f1-score": 0.898876404494382,
+          "support": 95.0
+        },
+        "accuracy": 0.9982157018239493,
+        "macro avg": {
+          "precision": 0.9811780856559672,
+          "recall": 0.9209025265053958,
+          "f1-score": 0.9489881572426906,
+          "support": 10088.0
+        },
+        "weighted avg": {
+          "precision": 0.9981744900936497,
+          "recall": 0.9982157018239493,
+          "f1-score": 0.9981560922845976,
+          "support": 10088.0
+        }
+      }
+    }
+  ],
+  "selection_metric": "PR-AUC",
+  "best_model": "RandomForest"
+}
